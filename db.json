@@ -1,0 +1,50 @@
+{
+  "todos": [],
+  "users": [
+    {
+      "id": "1",
+      "name": "Kim Developer",
+      "email": "kim@example.com",
+      "role": "developer"
+    },
+    {
+      "id": "2",
+      "name": "Lee Designer",
+      "email": "lee@example.com",
+      "role": "designer"
+    },
+    {
+      "id": "3",
+      "name": "Park Tester",
+      "email": "park@example.com",
+      "role": "tester"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "work",
+      "color": "#FF5733"
+    },
+    {
+      "id": "2",
+      "name": "design",
+      "color": "#33FF57"
+    },
+    {
+      "id": "3",
+      "name": "development",
+      "color": "#3357FF"
+    },
+    {
+      "id": "4",
+      "name": "testing",
+      "color": "#F333FF"
+    },
+    {
+      "id": "5",
+      "name": "deployment",
+      "color": "#33FFF3"
+    }
+  ]
+}
