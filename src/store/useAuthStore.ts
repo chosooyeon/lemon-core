@@ -1,11 +1,12 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { AuthState, User } from '@/types/auth.types';
+import axios from 'axios';
 
 // API 호출을 시뮬레이션하는 함수
 const loginApi = async (email: string, password: string): Promise<{ user: User; token: string }> => {
   // 실제 API 호출로 대체해야 합니다
-  const response = await fetch('/api/login', {
+  const response = await axios.post('/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -13,11 +14,11 @@ const loginApi = async (email: string, password: string): Promise<{ user: User; 
     body: JSON.stringify({ email, password }),
   });
 
-  if (!response.ok) {
+  if (!response) {
     throw new Error('Login failed');
   }
 
-  return response.json();
+  return response.data;
 };
 
 export const useAuthStore = create<AuthState>()(

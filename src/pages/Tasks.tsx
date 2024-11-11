@@ -22,8 +22,9 @@ export const TasksPage = () => {
       
       {isLoading && <div>Loading...</div>}
       {todos.map(todo => (
-        <div key={todo.id}>
+        <div key={todo.id} className='flex justify-between items-center p-4'>
           <input
+            className='flex items-center gap-2'
             type="checkbox"
             checked={todo.completed}
             onChange={() => handleToggle(todo.id)}

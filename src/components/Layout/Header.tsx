@@ -14,9 +14,9 @@ export const Header = () => {
             <Link to="/profile" className="text-gray-600 hover:text-gray-900">
               Profile
             </Link>
-            <button className="rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
+            <Link to="/login" className="button rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
               Login
-            </button>
+            </Link>
           </div>
         </div>
       </nav>

@@ -1,5 +1,69 @@
 {
-  "todos": [],
+  "todos": [
+    {
+      "id": 1,
+      "title": "프로젝트 기획서 작성",
+      "completed": false,
+      "createdAt": "2024-03-11T09:00:00Z",
+      "userId": 1,
+      "priority": "high",
+      "category": "work"
+    },
+    {
+      "id": 2,
+      "title": "주간 회의 준비",
+      "completed": true,
+      "createdAt": "2024-03-11T10:30:00Z",
+      "userId": 1,
+      "priority": "medium",
+      "category": "work"
+    },
+    {
+      "id": 3,
+      "title": "이메일 확인 및 답장",
+      "completed": false,
+      "createdAt": "2024-03-11T11:15:00Z",
+      "userId": 1,
+      "priority": "low",
+      "category": "work"
+    },
+    {
+      "id": 4,
+      "title": "디자인 시안 검토",
+      "completed": false,
+      "createdAt": "2024-03-11T13:00:00Z",
+      "userId": 2,
+      "priority": "medium",
+      "category": "design"
+    },
+    {
+      "id": 5,
+      "title": "코드 리뷰",
+      "completed": true,
+      "createdAt": "2024-03-11T14:30:00Z",
+      "userId": 2,
+      "priority": "high",
+      "category": "development"
+    },
+    {
+      "id": 6,
+      "title": "테스트 케이스 작성",
+      "completed": false,
+      "createdAt": "2024-03-11T15:45:00Z",
+      "userId": 3,
+      "priority": "medium",
+      "category": "testing"
+    },
+    {
+      "id": 7,
+      "title": "배포 준비",
+      "completed": false,
+      "createdAt": "2024-03-11T16:20:00Z",
+      "userId": 3,
+      "priority": "high",
+      "category": "deployment"
+    }
+  ],
   "users": [
     {
       "id": "1",
