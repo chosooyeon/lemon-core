@@ -1,19 +1,19 @@
 import { createBrowserRouter } from 'react-router-dom';
 import { Layout } from '@/components/Layout/Layout';
-// import { HomePage } from '@/pages/Home';
 import { TasksPage } from '@/pages/Tasks';
 import { LoginPage } from '@/pages/LoginPage';
 import { ProtectedRoute } from '@/components/ProtectedRoute';
+import { InPatient } from '@/components/InPatient';
 
 export const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
     children: [
-      // {
-      //   index: true,
-      //   element: <HomePage />,
-      // },
+      {
+        index: true,
+        element: <LoginPage />,
+      },
       {
         path: 'tasks',
         element: (
@@ -22,10 +22,10 @@ export const router = createBrowserRouter([
           // </ProtectedRoute>
         ),
       },
-      {
-        path: 'login',
-        element: <LoginPage />,
-      },
     ],
   },
+  {
+    path: 'inPatientList',
+    element: <InPatient/>
+  }
 ]);

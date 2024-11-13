@@ -42,7 +42,7 @@ export const TodoList = () => {
           <button
             type="submit"
             disabled={isAddingTodo}
-            className="px-4 py-2 bg-blue-500 text-white rounded disabled:bg-blue-300"
+            className="btn btn-primary"
           >
             {isAddingTodo ? 'Adding...' : 'Add'}
           </button>
@@ -68,7 +68,7 @@ export const TodoList = () => {
             <button
               onClick={() => removeTodo(todo.id)}
               disabled={isRemovingTodo}
-              className="px-3 py-1 bg-red-500 text-white rounded disabled:bg-red-300"
+              className="btn btn-primary"
             >
               {isRemovingTodo ? '...' : 'Delete'}
             </button>

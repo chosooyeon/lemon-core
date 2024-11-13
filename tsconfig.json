@@ -24,18 +24,6 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@i18n/*": ["src/i18n/*"],
-      "@lib/*": ["src/lib/*"],
-      "@pages/*": ["src/pages/*"],
-      "@routes/*": ["src/routes/*"],
-      "@service/*": ["src/service/*"],
-      "@store/*": ["src/store/*"],
-      "@utils/*": ["src/utils/*"],
-      "@types/*": ["src/types/*"],
-      "@styles/*": ["src/styles/*"]
     },
 
     /* Additional Node.js specific options */
