@@ -11,11 +11,8 @@ export const Header = () => {
             </Link>
           </div>
           <div className="flex items-center space-x-4">
-            <Link to="/profile" className="text-gray-600 hover:text-gray-900">
-              Profile
-            </Link>
-            <Link to="/login" className="button rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white hover:bg-indigo-700">
-              Login
+            <Link to="/inPatientList" className="text-gray-600 hover:text-gray-900">
+              inPatientList
             </Link>
           </div>
         </div>

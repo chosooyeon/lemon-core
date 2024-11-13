@@ -4,6 +4,7 @@ import { TasksPage } from '@/pages/Tasks';
 import { LoginPage } from '@/pages/LoginPage';
 import { ProtectedRoute } from '@/components/ProtectedRoute';
 import { InPatient } from '@/components/InPatient';
+import { Login } from '@/components/Login';
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
         ),
       },
     ],
+  },
+  {
+    path: 'login',
+    element: <Login/>
   },
   {
     path: 'inPatientList',
