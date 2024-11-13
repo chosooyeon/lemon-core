@@ -1,10 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { Layout } from '@/components/layout/Layout';
+import { Layout } from '@/components/Layout/Layout';
 import { TasksPage } from '@/pages/test/Tasks';
 import { LoginPage } from '@/pages/common/LoginPage';
-import { ProtectedRoute } from '@/components/ProtectedRoute';
-import { InPatient } from '@/components/InPatient';
-import { Login } from '@/components/Login';
+import { ProtectedRoute } from '@/routes/ProtectedRoute';
+// import { InPatient } from '@/components/InPatient';
+// import { Login } from '@/components/Login';
 
 export const router = createBrowserRouter([
   {
@@ -25,12 +25,12 @@ export const router = createBrowserRouter([
       },
     ],
   },
-  {
-    path: 'login',
-    element: <Login/>
-  },
-  {
-    path: 'inPatientList',
-    element: <InPatient/>
-  }
+  // {
+  //   path: 'login',
+  //   element: <Login/>
+  // },
+  // {
+  //   path: 'inPatientList',
+  //   element: <InPatient/>
+  // }
 ]);
